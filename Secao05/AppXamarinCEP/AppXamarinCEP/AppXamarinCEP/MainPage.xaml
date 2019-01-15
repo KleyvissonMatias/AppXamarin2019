@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppXamarinCEP"
+             x:Class="AppXamarinCEP.MainPage">
+
+    <StackLayout BackgroundColor="#ffffff" Padding="30" Spacing="20">
+        <Image  Source="iconFedex.png" x:Name="LOGO"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#b2b2b2" x:Name="CEP"/>
+        <Button Text="Consultar" TextColor="#ffffff" BackgroundColor="#472f91" x:Name="BOTTON"/>
+
+        <Label Text="" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" x:Name="TEXTNAME"/>
+    </StackLayout>
+
+</ContentPage>
